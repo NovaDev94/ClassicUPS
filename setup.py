@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='ClassicUPS',
-    version='0.1.8',
+    version='0.1.8.1',
     author='Jay Goel',
     author_email='jay@classicspecs.com',
     url='http://github.com/classicspecs/ClassicUPS/',
@@ -12,7 +12,7 @@ setup(
     keywords=['UPS'],
     install_requires=[
         'dict2xml==1.0',
-        'xmltodict==0.4.2'
+        'xmltodict<1.0',
     ],
     classifiers=[
         'Programming Language :: Python',
